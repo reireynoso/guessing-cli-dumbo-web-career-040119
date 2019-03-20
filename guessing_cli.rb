@@ -4,7 +4,7 @@ def run_guessing_game
   guess = gets.chomp
   random = rand(1...6)
   #puts guess
-  #puts random
+  puts random
   if guess == "exit"
     puts "Goodbye!"
   elsif guess == random
